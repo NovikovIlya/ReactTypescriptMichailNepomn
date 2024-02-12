@@ -33,10 +33,9 @@ export const UseInfo = ({ blog, company, location, twitter }: any) => {
   ];
   return (
     <div className={styles.useInfo}>
-      {items.map((item,index) => {
+      {items.map((item, index) => {
         return <InfoItem {...item} key={index} />;
       })}
     </div>
   );
 };
- 

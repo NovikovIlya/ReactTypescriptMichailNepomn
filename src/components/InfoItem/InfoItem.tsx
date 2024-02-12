@@ -18,7 +18,7 @@ export const InfoItem = ({ icon, text, isLink }: InfoItemProps) => {
       <div>
         {isLink && text ? (
           <a href={currentHref} target="_blank" rel="noreferrer" className={styles.link}>
-            currentText
+            {currentText}
           </a>
         ) : (
           currentText

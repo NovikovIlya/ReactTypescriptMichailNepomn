@@ -1,36 +1,5 @@
 import { GithubUser, LocalGithubUser } from "../types";
 
-export const defaultUser:LocalGithubUser = {
-    "login": "NovikovIlya",
-    "id": 91413531,
-    "node_id": "MDQ6VXNlcjkxNDEzNTMx",
-    "avatar": "https://avatars.githubusercontent.com/u/91413531?v=4",
-    "gravatar_id": "",
-    "url": "https://api.github.com/users/NovikovIlya",
-    "html_url": "https://github.com/NovikovIlya",
-    "followers_url": "https://api.github.com/users/NovikovIlya/followers",
-    "following_url": "https://api.github.com/users/NovikovIlya/following{/other_user}",
-    "gists_url": "https://api.github.com/users/NovikovIlya/gists{/gist_id}",
-    "starred_url": "https://api.github.com/users/NovikovIlya/starred{/owner}{/repo}",
-    "subscriptions_url": "https://api.github.com/users/NovikovIlya/subscriptions",
-    "organizations_url": "https://api.github.com/users/NovikovIlya/orgs",
-    "repos_url": "https://api.github.com/users/NovikovIlya/repos",
-    "events_url": "https://api.github.com/users/NovikovIlya/events{/privacy}",
-    "received_events_url": "https://api.github.com/users/NovikovIlya/received_events",
-    "type": "User",
-    "site_admin": false,
-    "name": 'Илья',
-    "company": null,
-    "blog": "",
-    "location": "Kazan, Russia",
-    "email": null,
-    "hireable": null,
-    "bio": null,
-    "twitter": null,
-    "repos": 69,
-    "public_gists": 0,
-    "followers": 1,
-    "following": 1,
-    "created": "2021-09-26T10:12:16Z",
-    "updated_at": "2024-02-09T10:36:05Z"
+export const defaultUser = {
+
 }

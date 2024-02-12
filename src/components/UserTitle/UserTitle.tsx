@@ -14,7 +14,7 @@ export const UserTitle = ({ created, login, name }: UserTitleProps) => {
   return (
     <div className={styles.userTitle} data-testid="UserTitle">
       <h2>{name}</h2>
-      <h3>login</h3>
+      <h3>{login}</h3>
       <span>{joinedDate}</span>
     </div>
   );
